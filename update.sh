@@ -37,7 +37,7 @@ fi
 
 echo "=== Step 5: Updating Python versions via pyenv ==="
 if command -v pyenv >/dev/null 2>&1; then
-    pyenv update
+    brew upgrade pyenv
 else
     echo "pyenv not found. Skipping."
 fi
